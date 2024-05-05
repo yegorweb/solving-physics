@@ -1,8 +1,8 @@
 #import "lib.typ": *
 
-#set page(height: auto, width: auto, margin: 1em)
+#set page(height: auto, margin: 1em)
 
-task(
+#task(
   given: [
     $mu = 0.4$ \
     $g = 10$ \
