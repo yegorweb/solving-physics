@@ -20,7 +20,7 @@ The easiest method is to import `solving-physics: task` from the `@preview` pack
   #lorem(100)
 ]
 ```
-![usage](./example1.svg)
+![usage](./examples/example1.svg)
 
 = Stroke
 ```typ
@@ -36,7 +36,7 @@ The easiest method is to import `solving-physics: task` from the `@preview` pack
   stroke: "full"
 )[]
 ```
-![full stroke](./example2.svg)
+![full stroke](./examples/example2.svg)
 
 ```typ
 #task(
@@ -51,7 +51,7 @@ The easiest method is to import `solving-physics: task` from the `@preview` pack
   stroke: "find"
 )[]
 ```
-![find stroke](./example3.svg)
+![find stroke](./examples/example3.svg)
 
 ```typ
 #task(
@@ -66,4 +66,4 @@ The easiest method is to import `solving-physics: task` from the `@preview` pack
   stroke: none
 )[]
 ```
-![none stroke](./example4.svg)
+![none stroke](./examples/example4.svg)
