@@ -1,10 +1,10 @@
-= Installation
+# Installation
 The easiest method is to import `solving-physics: task` from the `@preview` package:
 ```typ
 #import "@preview/solving-physics:0.1.0": *
 ```
 
-= Usage
+# Usage
 ```typ
 #task(
   given: [
@@ -22,7 +22,7 @@ The easiest method is to import `solving-physics: task` from the `@preview` pack
 ```
 ![usage](./examples/example1.svg)
 
-= Stroke
+# Stroke
 ```typ
 #task(
   given: [
