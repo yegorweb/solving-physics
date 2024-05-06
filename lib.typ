@@ -2,7 +2,7 @@
 
 #let task = (given: "", find: "", stroke: "partially", fig: none, body) => {
   grid(
-    columns: (auto, 1fr),
+    columns: (auto, auto),
     column-gutter: 1.2em,
     
     table(
