@@ -93,10 +93,8 @@ You may locate you figure on the center of body by `fig-align: top + center`
   given: [
     $mu = 0.4$ \
     $g = 10$ \
-    $m = 20$ \
-    #lorem(9)
+    $m = 20$
   ],
-  given-width: 6em,
   find: [
     $F$ --- ?
   ],
