@@ -1,8 +1,8 @@
 #import "@preview/wrap-it:0.1.0": wrap-content
 
-#let task = (given: "", find: "", stroke: "partially", fig: none, body) => {
+#let task = (given: "", find: "", stroke: "partially", fig: none, fig-align: top + right, given-width: auto, body) => {
   grid(
-    columns: (auto, auto),
+    columns: (given-width, auto),
     column-gutter: 1.2em,
     
     table(
@@ -26,7 +26,7 @@
         }
       },
       
-      given,  
+      given,
       if find != "" {
         find
       }
@@ -37,12 +37,18 @@
         body
       } 
       else {
-        wrap-content(
-          fig, 
-          body,
-          align: top + right,
-          column-gutter: 1em
-        )
+        if (fig-align == top) {
+          align(center, fig)
+          body
+        }
+        else {
+          wrap-content(
+            fig, 
+            body,
+            align: top + right,
+            column-gutter: 1em
+          )
+        }
       }
     )
   )
