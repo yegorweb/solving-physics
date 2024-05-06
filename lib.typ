@@ -37,7 +37,7 @@
         body
       } 
       else {
-        if (fig-align == top) {
+        if (fig-align == top + center) {
           align(center, fig)
           body
         }
