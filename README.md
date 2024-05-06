@@ -20,7 +20,7 @@ The easiest method is to import `solving-physics: task` from the `@preview` pack
   #lorem(100)
 ]
 ```
-![usage](./examples/example1.svg)
+![usage](./examples/example1.png)
 
 # Stroke
 ```typ
@@ -104,4 +104,4 @@ You may locate you figure on the center of body by `fig-align: top + center`
   #lorem(100)
 ]
 ```
-![Figure align](./examples/example6.svg)
+![Figure align](./examples/example6.png)
